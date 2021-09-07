@@ -1,0 +1,59 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "gothic"; }
+  .titulo .titulo_color {
+    color: red; }
+  .titulo .titulo_tamanio {
+    font-size: 100px; }
+
+.barra_navegacion {
+  display: flex;
+  justify-content: center; }
+  .barra_navegacion .barra_navegacion_fuente {
+    font-family: "verdana";
+    font-size: 20px;
+    color: pink; }
+
+.primer_parrafo {
+  font-size: 30px; }
+  .primer_parrafo .primer_parrafo_color {
+    color: violet; }
+
+.segundo_parrafo {
+  font-size: 30px; }
+  .segundo_parrafo .segundo_parrafo_color {
+    color: red; }
+
+.footer_index {
+  display: flex;
+  flex-direction: column; }
+  .footer_index .footer_index_elemento {
+    color: skyblue;
+    font-size: 20px; }
+  .footer_index .footer_index_elemento_dos {
+    color: red;
+    font-size: 15px; }
+  .footer_index .footer_index_elemento_tres {
+    color: green;
+    font-size: 30px; }
+
+.primer_departamento {
+  font-size: 25px; }
+  .primer_departamento .h6Primer_departamento {
+    color: green; }
+
+.segundo_departamento {
+  font-size: 35px; }
+  .segundo_departamento .h6Segundo_departamento {
+    color: indigo; }
+
+.tercer_departamento {
+  font-size: 40px; }
+  .tercer_departamento .h6Tercer_departamento {
+    color: lawngreen; }
+
+.cuarto_departamento {
+  font-size: 15px; }
+  .cuarto_departamento .h6Cuarto_departamento {
+    color: hotpink; }

@@ -1,0 +1,109 @@
+$pColor: violet;
+$pColor2: red;
+$pTamanio: 30px;
+
+$h1Tamanio: 100px;
+$h1Color: red;
+$h1Fuente: "gothic";
+
+$navTamanio: 20px;
+$navFuente: "verdana";
+
+
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+    font-family: $h1Fuente;
+        .titulo_color {
+            color: $h1Color;
+    }
+        .titulo_tamanio {
+            font-size: $h1Tamanio;
+        }
+}
+
+
+
+
+
+.barra_navegacion {
+    display: flex;
+    justify-content: center;
+    .barra_navegacion_fuente {
+        font-family: $navFuente;
+        font-size: $navTamanio;
+        color: pink;
+    }
+}
+
+
+
+
+
+
+.primer_parrafo {
+    font-size: $pTamanio;
+    .primer_parrafo_color {
+        color: $pColor;
+    }
+}
+
+
+
+
+.segundo_parrafo {
+    font-size: $pTamanio;
+    .segundo_parrafo_color {
+        color: $pColor2;
+    }
+}
+
+
+.footer_index {
+    display: flex;
+    flex-direction: column;
+
+        .footer_index_elemento {
+            color: skyblue;
+            font-size: 20px;
+        }
+        .footer_index_elemento_dos {
+            color: red;
+            font-size: 15px;
+        }
+        .footer_index_elemento_tres {
+            color: green;
+            font-size: $pTamanio;
+        }
+    }
+
+    .primer_departamento {
+        font-size: 25px;
+        .h6Primer_departamento {
+            color: green;
+        }
+    }
+
+    .segundo_departamento {
+        font-size: 35px;
+        .h6Segundo_departamento {
+            color: indigo;
+        }
+    }
+
+    .tercer_departamento {
+        font-size: 40px;
+        .h6Tercer_departamento {
+            color: lawngreen;
+        }
+    }
+
+    .cuarto_departamento {
+        font-size: 15px;
+        .h6Cuarto_departamento {
+            color: hotpink;
+        }
+    }
