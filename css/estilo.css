@@ -9,7 +9,7 @@
 
 .barra_navegacion {
   display: flex;
-  justify-content: center; }
+  justify-content: center;}
   .barra_navegacion .barra_navegacion_fuente {
     font-family: "verdana";
     font-size: 20px;
